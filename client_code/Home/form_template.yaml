@@ -1,0 +1,47 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'DRMXOW,SODWMB', slot: default}
+    name: label_1
+    properties:
+      align: left
+      background: ''
+      bold: false
+      border: ''
+      font: ''
+      font_size: null
+      foreground: ''
+      icon: ''
+      icon_align: left
+      italic: false
+      role: null
+      spacing_above: small
+      spacing_below: small
+      text: |+
+        Prerequisite: Make sure that you add the articles table from your App as an existing table (So that contents will remain synchronised)
+
+      tooltip: ''
+      underline: false
+      visible: true
+    type: Label
+  - event_bindings: {click: button_1_click}
+    layout_properties: {grid_position: 'SKWTPM,CGOVIJ'}
+    name: button_1
+    properties: {align: right, background: 'theme:primary', bold: false, border: '', enabled: true, font: '', font_size: 20, foreground: 'theme:white', icon: 'fa:plus', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: New Article, tooltip: '', underline: false, visible: true}
+    type: Button
+  - layout_properties: {grid_position: 'ZCJCYO,QXUBEM'}
+    name: spacer_1
+    properties: {height: '30', spacing_above: small, spacing_below: small, tooltip: '', visible: true}
+    type: Spacer
+  layout_properties: {slot: default}
+  name: column_panel_1
+  properties: {col_widths: '{}'}
+  type: ColumnPanel
+- layout_properties: {slot: default}
+  name: repeating_panel_1
+  properties: {item_template: Home.ItemTemplate1}
+  type: RepeatingPanel
+container:
+  event_bindings: {show: form_show}
+  properties: {background: '', border: '', foreground: '', html: '', role: null, tooltip: '', visible: true}
+  type: HtmlTemplate
+is_package: true

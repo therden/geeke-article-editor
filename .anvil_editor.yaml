@@ -1,0 +1,14 @@
+unique_ids:
+  assets:
+    theme.css: AFNPQSP6X4CFFNEDKSI5HL6EC4ZAVRLP
+  forms:
+    Article_Editor: '1704798255084837962238926.4363'
+    Article_Editor.Instructions: '1704800942639653749342933.9602'
+    Article_Viewer: OHW4YFXM4G6SPSGEARVM3ZCE5XHVZ7ND
+    Home: '1704799476043730164128391.425'
+    Home.ItemTemplate1: '1704799584577541268858835.9358'
+  modules:
+    data: '169288345533161764605109.948524'
+  scripts: {}
+  server_modules:
+    ServerModule1: '1693073997697766931216868.9581'
