@@ -86,7 +86,8 @@ container:
     foreground: ''
     html: |-
       <script>
-      simplemde = new SimpleMDE();
+      // simplemde = new SimpleMDE();
+      simplemde = new EasyMDE();
       </script>
     role: null
     tooltip: ''
