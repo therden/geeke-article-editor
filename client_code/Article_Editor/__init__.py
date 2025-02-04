@@ -24,6 +24,7 @@ class Article_Editor(Article_EditorTemplate):
             "category":self.category.text,
             "bg":self.bg.text,
             "cont":window.simplemde.value(),
+            # "cont":window.easymde.value(),
             "date":date.today()
         }
         
@@ -33,6 +34,7 @@ class Article_Editor(Article_EditorTemplate):
     def form_show(self, **event_args):
         if self.item:
             window.simplemde.value(self.item['cont'])
+            # window.easymde.value(self.item['cont'])
 
     def action_click(self, **event_args):
         if confirm("Will you like to publish/update this article",title='Confirmation'):
